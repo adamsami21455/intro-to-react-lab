@@ -4,10 +4,10 @@ function Button() {
     function handleClick() {
         console.log("Button Clicked")
     }
-    
+
     return (
         <div>
-            <button onClick={handleClick} className='button-text'>Click Me</button>
+            <button onClick={handleClick} className='button-text'>Upload</button>
         </div>
     )
 }
